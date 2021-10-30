@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require "logger"
+
+dir = File.join(__dir__)
+logger = Logger.new(File.join(dir, 'follow_inode.txt'), 4, 256)
+logger.info("1 following inode")
+logger.info("2 This will be written in follow_inode.txt.*")

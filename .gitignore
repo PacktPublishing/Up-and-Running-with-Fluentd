@@ -1,0 +1,5 @@
+.DS_Store
+/Chapter2/*.txt
+/Chapter2/*.txt.*
+/Chapter2/*.pos
+/Chapter2/*.log
